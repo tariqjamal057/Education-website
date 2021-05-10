@@ -34,13 +34,82 @@
 			</div>
 		</div>
 		
-		<div class="column right ">
-			<a href="#"><p class="navbar-item has-text-info">HOME     </p></a>
-            <p class="navbar-item has-text-info">COURSES  </p>
-            <a href="about.html"><p class="navbar-item has-text-info">ABOUT    </p></a>
-			<a href="signin.html"><p class="navbar-item has-text-info">SIGN IN  </p></a>
-			<a href="reg.html"><p class="navbar-item has-text-info">REGISTER </p></a>
-		</div>
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand" >
+				
+				<a class="navbar-item" href="#">
+				  <img src="logo1.jpeg" id="img">
+				</a>
+			
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				</a>
+			</div>
+		  
+			<div id="navbarBasicExample" class="navbar-menu">
+			  <div class="navbar-start">
+				<a class="navbar-item">
+				  Home
+				</a>
+
+				<div class="navbar-item has-dropdown is-hoverable">
+				
+			
+					<a href="#courses" class="navbar-link" >
+						Courses
+					</a>
+					<div class="navbar-dropdown" id="course">
+						<a href="#java" class="navbar-item">
+							Core java
+						</a>
+						<a href="#python" class="navbar-item">
+							pyhton
+						</a>
+						<a href="#html" class="navbar-item">
+							HTML5 & CSS
+						</a>
+						<a href="#js" class="navbar-item">
+							Javascript
+						</a>
+						<a href="#ml" class="navbar-item">
+							ML
+						</a>
+						
+					</div>
+				</div>
+				
+		  
+				<div class="navbar-item has-dropdown is-hoverable">
+				  <a class="navbar-link">
+					More
+				  </a>
+		  
+				  <div class="navbar-dropdown">
+					<a href="about.html" class="navbar-item">
+					  About
+					</a>
+					<a href="signin.html" class="navbar-item">
+					  Sign in
+					</a>
+					<a href="register.html" class="navbar-item">
+						Register
+					</a>
+					<a class="navbar-item">
+					  Contact
+					</a>
+					<hr class="navbar-divider">
+					<a class="navbar-item">
+					  Report an issue
+					</a>
+				  </div>
+				</div>
+			  </div>
+		  
+
+			</div>
+		  </nav>
 	
 		
 				
