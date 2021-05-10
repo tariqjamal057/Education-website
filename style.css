@@ -123,8 +123,8 @@
 .r1
 {
     position: relative;
-    width: 400px;
-    min-height: 300px;
+    width: auto;
+    min-height: auto;
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0,0,0,0.1);
     border: 1px solid rgba(255,255,255,0.5);
@@ -137,8 +137,8 @@
 .r2
 {
     position: relative;
-    width: 400px;
-    min-height: 300px;
+    width: auto;
+    min-height: auto;
     background: rgba(255,255,255,0.1);
     box-shadow: 0 25px 45px rgba(0,0,0,0.1);
     border: 1px solid rgba(255,255,255,0.5);
@@ -156,4 +156,10 @@
 {
     max-width: 80px;
     
+}
+
+#icon p strong
+{
+    color: black;
+    font-size: auto;
 }
