@@ -1,3 +1,8 @@
+body
+{
+    background: linear-gradient(to right , rgb(240, 193, 93) ,rgb(194, 8, 194));
+}
+
 .center, .center-column, .top, .right, .bottom, .left {
 	display: flex;
 	justify-content: center;
@@ -155,6 +160,7 @@
 .men , .women
 {
     max-width: 80px;
+    height: 80px;
     
 }
 
