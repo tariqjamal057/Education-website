@@ -1,309 +1,307 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>EducationHub</title>
-		<link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-		<link rel="stylesheet" href="style.css">
-		<link rel="icon" href="logo1.jpeg">
-		<style>
 
-.hero {
-	background: black url(img2.jpg) center / cover;
-}
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>EducationHub</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="logo1.jpeg">
+	<style>
+		.hero {
+			background: url(background.png);
+		}
+	</style>
+</head>
 
-@media (max-width: 1024px) { .hero { background: black url(img2.jpg) center / cover; } }
-@media (max-width:  768px) { .hero { background: black url(img2.jpg) center / cover; } }
+<body>
 
-		</style>
-	</head>
-	<body>
+	<!-- .hero -->
+	<section class="hero is-fullheight">
 
-<!-- .hero -->
-<section class="hero is-fullheight">
+		<!-- .hero-head -->
+		<div class="hero-head">
+			<div class="columns is-mobile is-marginless">
+				<div class="column left">
+					<div class="notification has-background-success" id="icon">
+						<p class="navbar-item "><strong>EDUCATION HUB</strong></p>
 
-<!-- .hero-head -->
-<div class="hero-head">
-	<div class="columns is-mobile is-marginless">
-		<div class="column left">
-			<div class="notification has-background-success" id="icon">
-				<p class="navbar-item "><strong>EDUCATION HUB</strong></p>
-
-			</div>
-		</div>
-		
-		<nav class="navbar" role="navigation" aria-label="main navigation">
-			<div class="navbar-brand" >
-				
-				<a class="navbar-item" href="#">
-				  <img src="logo1.jpeg" id="img">
-				</a>
-			
-				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
-				  <span aria-hidden="true"></span>
-				</a>
-			</div>
-		  
-			<div id="navbarBasicExample" class="navbar-menu">
-			  <div class="navbar-start">
-				<a class="navbar-item">
-				  Home
-				</a>
-
-				<div class="navbar-item has-dropdown is-hoverable">
-				
-			
-					<a href="#courses" class="navbar-link" >
-						Courses
-					</a>
-					<div class="navbar-dropdown" id="course">
-						<a href="#java" class="navbar-item">
-							Core java
-						</a>
-						<a href="#python" class="navbar-item">
-							pyhton
-						</a>
-						<a href="#html" class="navbar-item">
-							HTML5 & CSS
-						</a>
-						<a href="#js" class="navbar-item">
-							Javascript
-						</a>
-						<a href="#ml" class="navbar-item">
-							ML
-						</a>
-						
 					</div>
 				</div>
-				
-		  
-				<div class="navbar-item has-dropdown is-hoverable">
-				  <a class="navbar-link">
-					More
-				  </a>
-		  
-				  <div class="navbar-dropdown">
-					<a href="about.html" class="navbar-item">
-					  About
-					</a>
-					<a href="signin.html" class="navbar-item">
-					  Sign in
-					</a>
-					<a href="register.html" class="navbar-item">
-						Register
-					</a>
-					<a class="navbar-item">
-					  Contact
-					</a>
-					<hr class="navbar-divider">
-					<a class="navbar-item">
-					  Report an issue
-					</a>
-				  </div>
+
+				<nav class="navbar" role="navigation" aria-label="main navigation">
+					<div class="navbar-brand">
+
+						<a class="navbar-item" href="#">
+							<img src="logo1.jpeg" id="img">
+						</a>
+
+						<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+							data-target="navbarBasicExample">
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+							<span aria-hidden="true"></span>
+						</a>
+					</div>
+
+					<div id="navbarBasicExample" class="navbar-menu">
+						<div class="navbar-start">
+							<a class="navbar-item">
+								Home
+							</a>
+
+							<div class="navbar-item has-dropdown is-hoverable">
+
+
+								<a href="#courses" class="navbar-link">
+									Courses
+								</a>
+								<div class="navbar-dropdown" id="course">
+									<a href="#java" class="navbar-item">
+										Core java
+									</a>
+									<a href="#python" class="navbar-item">
+										pyhton
+									</a>
+									<a href="#html" class="navbar-item">
+										HTML5 & CSS
+									</a>
+									<a href="#js" class="navbar-item">
+										Javascript
+									</a>
+									<a href="#ml" class="navbar-item">
+										ML
+									</a>
+
+								</div>
+							</div>
+
+
+							<div class="navbar-item has-dropdown is-hoverable">
+								<a class="navbar-link">
+									More
+								</a>
+
+								<div class="navbar-dropdown">
+									<a href="about.html" class="navbar-item">
+										About
+									</a>
+									<a href="signin.html" class="navbar-item">
+										Sign in
+									</a>
+									<a href="register.html" class="navbar-item">
+										Register
+									</a>
+									<a class="navbar-item">
+										Contact
+									</a>
+									<hr class="navbar-divider">
+									<a class="navbar-item">
+										Report an issue
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</nav>
+
+
+
+
+
+
+			</div>
+		</div>
+
+		<div class="notification bd-notification ">
+
+			<p>
+				A well- educated mind will always have more questions than answers <br> - Helen Keller <br>
+			</p>
+		</div>
+		<!-- /.hero-head -->
+
+	</section>
+	<!-- /.hero -->
+
+	<section class="section ">
+		<div class="container">
+
+			<div class="columns ">
+				<div class="column">
+					<div class="notification is-primary is-size-3 has-text-centered is-vcentered m-2 ">
+						<p class="m-2"><strong> BEGIN THE TRANSFORMATION</strong></p>
+					</div>
 				</div>
-			  </div>
-		  
-
 			</div>
-		  </nav>
-	
-		
-				
-	        
-		   
-		
-	</div>
-</div>
 
-<div class="notification bd-notification ">
-
-	<p>
-	 A well- educated mind will always have more questions than answers <br> - Helen Keller <br>
-	</p>
-</div>
-<!-- /.hero-head -->
-
-</section>
-<!-- /.hero -->
-
-<section class="section ">
-	<div class="container">
-
-		<div class="columns ">
-			<div class="column">
-				<div class="notification is-primary is-size-3 has-text-centered is-vcentered m-2 ">
-					<p class="m-2"><strong> BEGIN THE TRANSFORMATION</strong></p>
-                </div>
-			</div>
 		</div>
 
-	</div>
+	</section>
 
-</section>
+	<section class="section">
+		<div class="container">
 
-<section class="section">
-	<div class="container">
-		
-		<div>
-			
-			<p class="has-text-danger left is-size-2 ">Courses</p>  
+			<div>
 
-			
-		</div>
+				<p class="has-text-danger left is-size-2 ">Courses</p>
 
-		<div class="notification">
-			<figure class="image is-128x128">
-				<img src="py.jpeg">
+
+			</div>
+
+			<div class="notification">
+				<figure class="image is-128x128">
+					<img src="py.jpeg" style="width: 150px;height: 100px;">
+				</figure>
 				<p class="has-text-grey-darker ">
 					<strong>Python Development Course</strong>
 				</p>
-		    </figure>
-                  
-			In this Course you will start learning from basic to Advance level this course will cover all topics such as datatypes ,loop, condition statement and so more...
-			
-		</div>
+				In this Course you will start learning from basic to Advance level this course will cover all topics
+				such as datatypes ,loop, condition statement and so more...
 
-		<div class="notification">
-			<figure class="image is-128x128">
-				<img src="java.jpg">
+			</div>
+
+			<div class="notification">
+				<figure class="image is-128x128">
+					<img src="java.jpg" style="width: 150px;height: 100px;">
+				</figure>
+
 				<p class="has-text-grey-darker ">
 					<strong>Java Development Course</strong>
 				</p>
-		    </figure>
-                  
-			In this Course you will start learning from basic to Advance level of java programming this course will cover all topics such as datatypes ,loop, condition statement and so more...
-			
-		</div>
+				In this Course you will start learning from basic to Advance level of java programming this course will
+				cover all topics such as datatypes ,loop, condition statement and so more...
 
-		<div class="notification">
-			<figure class="image is-128x128">
-				<img src="js.png">
+			</div>
+
+			<div class="notification">
+				<figure class="image is-128x128">
+					<img src="js.png" style="width: 150px;height: 100px;">
+				</figure>
+
 				<p class="has-text-grey-darker ">
 					<strong>Javascript Development Course</strong>
 				</p>
-		    </figure>
-                  
-			In this Course you will start learning from basic to Advance level this course will cover all topics such as datatypes ,loop, condition statement and so more...
-			
-		</div>
+				In this Course you will start learning from basic to Advance level this course will cover all topics
+				such as datatypes ,loop, condition statement and so more...
 
-		<div class="notification">
-			<figure class="image is-128x128">
-				<img src="html.jpg">
+			</div>
+
+			<div class="notification">
+				<figure class="image is-128x128">
+					<img src="html.jpg" style="width: 150px;height: 100px;">
+				</figure>
+
 				<p class="has-text-grey-darker ">
 					<strong>HTML & CSS Essential Training</strong>
 				</p>
-		    </figure>
-                  
-			In this Course you will start learning from basic to Advance level this course will cover all topics such as datatypes ,loop, condition statement and so more...
-			
-		</div>
+				In this Course you will start learning from basic to Advance level this course will cover all topics
+				such as datatypes ,loop, condition statement and so more...
 
-		<div class="notification">
-			<figure class="image is-128x128">
-				<img src="ml.jpg">
+			</div>
+
+			<div class="notification">
+				<figure class="image is-128x128">
+					<img src="ml.jpg" style="width: 150px;height: 100px;">
+				</figure>
+
 				<p class="has-text-grey-darker ">
 					<strong>Machine Learning Course</strong>
 				</p>
-		    </figure>
-                  
-			In this Course you will start learning from basic to Advance level this course will cover all topics such as datatypes ,loop, condition statement and so more...
-			
+				In this Course you will start learning from basic to Advance level this course will cover all topics
+				such as datatypes ,loop, condition statement and so more...
+
+			</div>
+
 		</div>
 
-	</div>
+	</section>
 
-</section>
+	<hr>
 
-<div>
-	<p>
-		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-	</p>
-</div>
-
-<p class="is-size-2">Reviews from learners</p>
+	
 
 
-<section class="section">
-	<div class="container">
-		<div class="columns">
-			<div class="column">
-				<div class="notification" id="review">
+	<section class="section">
+		<div class="container">
+			<p class="is-size-2 py-5">Reviews from learners</p>
+			<div class="columns">
+				<div class="column">
+					<div class="notification" id="review">
 
-					<table>
-						<tr>
-							<td>
-								<div class="r1">
-								
-									<p> 
-										<img src="men.jpg" alt="men photo" class="men">
-										<p class="name"> <strong>Arshad k </strong> </p> 
+						<table cellspacing="20px">
+							<tr>
+								<td style="width: 350px;">
+									<div class="r1">
+											<img src="men.jpg" alt="men photo" class="men">
+										<p class="name"> <strong>Arshad k </strong> </p>
 										<br>
 										<div class="name">
 											<p><strong>Software Engineer at Wipro</strong> </p>
 										</div>
-										<p>This training has been extremely beneficial to me. Also, my confidence in Python grew and I applied for internships and landed my first 3 internships in Python Django development after the training completion. </p>
-									</p>
-										
-								</div>
-							</td>
-							<br> <br> <br> <br>
-							
-							<td>
-								<div class="r2">
-							
-									<p>
-										<img src="women.jpg" alt="women image" class="women">
+										<p>This training has been extremely beneficial to me. Also, my confidence in
+											Python grew and I applied for internships and landed my first 3 internships
+											in Python Django development after the training completion. </p>
+										</p>
+
+									</div>
+								</td>
+								<td style="width: 350px;">
+									<div class="r2">
+
+										<p>
+											<img src="women.jpg" alt="women image" class="women">
 										<P class="name"><strong>pooja S</strong> </P>
 										<br>
 										<div class="name">
 											<P> <strong>Web Developer intern</strong> </p>
 										</div>
-										<P> I learnt Web Development from scratch. The tutorials and topics were well prepared, clearly explained, and easy to grasp. All the queries were answered by the teacher which helped me a lot. </P>
-									</p>
-							
-							</div>
+										<P> I learnt Web Development from scratch. The tutorials and topics were well
+											prepared, clearly explained, and easy to grasp. All the queries were
+											answered by the teacher which helped me a lot. </P>
+										</p>
 
-							</td>
-							
-						</tr>
-					</table>
+									</div>
+
+								</td>
+
+							</tr>
+						</table>
 
 
+					</div>
 				</div>
 			</div>
-		</div>
-
-	</div>
-</section>
-
-<section class="section">
-	<div class="container">
-
-		<div class="notification has-background-dark has-text-grey-light">
-			<p class="">
-
-				About us          Contact us 
-
-			</p>
-
-			<p>
-				Terms & Condition
-			</p>
-
-			<p>
-				Copyrights &copy 2021 Education hub
-			</p>
-
 
 		</div>
-	</div>
-</section>
-	</body>
+	</section>
+
+	<section class="section">
+		<div class="container">
+
+			<div class="notification has-background-dark has-text-grey-light">
+				<p class="">
+
+					About us Contact us
+
+				</p>
+
+				<p>
+					Terms & Condition
+				</p>
+
+				<p>
+					Copyrights &copy 2021 Education hub
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+</body>
+
 </html>
